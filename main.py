@@ -1,12 +1,12 @@
 from turtle import *
 from random import randint
 
-ada = Turtle()
-ada.color('red')
-ada.shape('turtle')
-ada.penup()
-ada.goto(-160, 100)
-ada.pendown()
+hugo = Turtle()
+hugo.color('red')
+hugo.shape('turtle')
+hugo.penup()
+hugo.goto(-160, 100)
+hugo.pendown()
 
 bob = Turtle()
 bob.color('blue')
@@ -45,7 +45,7 @@ for step in range(15):
     forward(20)
 
 for turn in range(100):
-    ada.forward(randint(1,5))
+    hugo.forward(randint(1,5))
     bob.forward(randint(1,5))
     kevin.forward(randint(1,5))
     patrik.forward(randint(1,5))
