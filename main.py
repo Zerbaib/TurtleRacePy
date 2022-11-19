@@ -44,7 +44,7 @@ for step in range(15):
     left(90)
     forward(20)
 
-for turn in range(100):
+for _ in range(100):
     hugo.forward(randint(1,5))
     bob.forward(randint(1,5))
     kevin.forward(randint(1,5))
